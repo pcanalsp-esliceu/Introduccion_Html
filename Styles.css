@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(0, 247, 255);
+}
+
+table{
+    background-color: rgb(0, 255, 170);
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+h1{
+    text-align: center;
+    color: #ff0000;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th{
+    background-color: rgb(119, 108, 108);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-style: italic;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+ul{
+    list-style: none;
+    
+}
+
+
+
+.hora{
+    background-color: pink;
+    color: #ff99009d;
+    font-weight: bold;
+    width: 120px;
+}
+
+.PATI{
+    background-color: rgb(34, 223, 9);
+    color: #000;
+    width: 120px;
+    font-style: unset;
+    text-align: center;
+}
+
+.SX{
+    background-color: rgb(0, 89, 255);
+    color: white;
+}
+
+.seguretat{
+    background-color: rgba(193, 114, 201, 0.911);
+    color: #000;
+}
+
+.Projecte{
+    background-color: rgb(221, 217, 166);
+    color: black;
+}
+
+.SOX{
+    background-color: rgb(231, 141, 99);
+    color: #000;
+}
+
+.Programacio{
+    background-color: rgb(183, 78, 197);
+    color: white;
+}
+
+.Sostenibilitat{
+    background-color: rgb(210, 219, 194);
+    color: #000;
+}
+
+.AW{
+    background-color: yellow;
+    color: #000;
+}
+
+.IPO{
+    background-color: #dad595;
+    color: #000;
+}
+
+h3{
+    text-align: center;
+    color: magenta;
+    padding: 10px;
+}
+
+li{
+    border: 1px solid black;
+    width: 20%;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    
+}
