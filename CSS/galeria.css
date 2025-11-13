@@ -1,0 +1,27 @@
+:root{
+    --main-color: rgb(91, 91, 243);
+    --second-color: #fa7878
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+    font-size: 1.6rem;
+}
+
+h1,h2,h3{
+    font-family: "Roboto", sans-serif;
+}
+
+#galeria img{
+    width: 400px;
+    height: 400px ;
+}
