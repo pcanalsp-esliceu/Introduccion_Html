@@ -1,6 +1,8 @@
 :root{
     --main-color: rgb(91, 91, 243);
     --second-color: #fa7878;
+    --gap: 16px;
+    --maxw:1400px;
 }
 
 html{
@@ -27,45 +29,30 @@ h1{
 }
 
 #galeria{
+    display: grid;
+    gap: var(--gap);
+    grid-template-columns: 1fr;
+    max-width: var(--maxw);
+    margin: 0 auto;
     padding: 0 1rem;
 }
 
 #galeria img{
-    width: 400px;
+    width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
-    border-radius: 5px;
-    margin-bottom:10px;
+    border-radius: 8px;
     display: block;
-    margin: 1rem auto;
-    max-width: 600px;
-}
-
-@media (min-width: 768px){
-    #galeria{
-        padding: 0 1rem;
-    }
-
-    #galeria img{
-        width: 47%;
-        margin: 1rem 1%;
-        display: inline;
-        max-width: none;
-    }
 }
 
 @media (min-width:1024px){
-    #galeria img{
-        width: 33%;
-        margin: 1rem 1%;
-        display: inline;
-        max-width: none;
+    #galeria{
+        grid-template-columns: repeat(3,1fr);
     }
 }
 
-@media (min-width: 1440px){
-    #galeria img{
-        width: 22%;
-        margin: 1%;
+@media (min-width:1440px){
+    #galeria{
+        grid-template-columns: repeat(4,1fr);
     }
 }
